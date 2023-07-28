@@ -20,6 +20,11 @@
         "page": "Sweets"
     },
     {
+        "id": "Cemilan",
+        "nama_kuliner": "Cemilan",
+        "page": "cemilan"
+    },
+    {
         "id": "Aneka nasi",
         "nama_kuliner": "Aneka nasi",
         "page": "aneka nasi"

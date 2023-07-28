@@ -18,49 +18,49 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between">
             <ul className="mb-4">
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Milk, cheese, yogurts</a>
+                <a href="/search/by/type/Makanan" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Makanan</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Fish, seafood and caviar</a>
+                <a href="/search/by/type/Cemilan" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Cemilan</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Meat and eggs</a>
-              </li>
-
-            </ul>
-            <ul className="mb-4">
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Grocery</a>
-              </li>
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Sauces and chilii</a>
-              </li>
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Drinks, tea, coffe</a>
-              </li>
-            </ul>
-
-            <ul className="mb-4">
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Milk, cheese, yogurts</a>
-              </li>
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Fish, seafood and caviar</a>
-              </li>
-              <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Meat and eggs</a>
+                <a href="/search/by/type/Minuman" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Minuman</a>
               </li>
 
             </ul>
             <ul className="mb-4">
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Grocery</a>
+                <a href="/search/by/type/Grosery" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Jajanan</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Sauces and chilii</a>
+                <a href="/search/by/type/Sweets" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Sweets</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Drinks, tea, coffe</a>
+                <a href="/search/by/type/Ayam & Bebek" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Ayam & Bebek</a>
+              </li>
+            </ul>
+
+            <ul className="mb-4">
+              <li className="mt-2">
+                <a href="/search/by/type/Roti" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Roti</a>
+              </li>
+              <li className="mt-2">
+                <a href="/search/by/type/Cepat saji" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Cepat Saji</a>
+              </li>
+              <li className="mt-2">
+                <a href="/search/by/type/Jepang" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Jepang</a>
+              </li>
+
+            </ul>
+            <ul className="mb-4">
+              <li className="mt-2">
+                <a href="/search/by/type/Daging" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Daging</a>
+              </li>
+              <li className="mt-2">
+                <a href="/search/by/type/Soto & Bakso" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Soto & Bakso</a>
+              </li>
+              <li className="mt-2">
+                <a href="/search/by/type/Roti" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Roti</a>
               </li>
             </ul>
           </div>
@@ -72,11 +72,11 @@ const Footer = () => {
                 <a href="" className='text-sm duration-500 text-slate-900 transition-colors hover:bg-blue-400 px-4 py-2 rounded-md hover:text-white'>Shiping and Payment</a>
                 <a href="" className='text-sm duration-500 text-slate-900 transition-colors hover:bg-blue-400 px-4 py-2 rounded-md hover:text-white'>Suppliers</a>
                 <a href="" className='text-sm duration-500 text-slate-900 transition-colors hover:bg-blue-400 px-4 py-2 rounded-md hover:text-white'>Testimonial</a>
-                <a href="" className='text-sm duration-500 text-slate-900 transition-colors hover:bg-blue-400 px-4 py-2 rounded-md hover:text-white'>Companies</a>
+                <a href="https://yumasnidacorp.wixsite.com/detastecorp/" className='text-sm duration-500 text-slate-900 transition-colors hover:bg-blue-400 px-4 py-2 rounded-md hover:text-white'>Companies</a>
               </div>
               <div className="sm:w-2/3 text-center ">
                 <p className="text-sm text-gray-500 py-2  font-outfits mb-2">
-                  © 2023 by <a href="">De Taste Food</a>
+                  © 2023 by <a href="https://yumasnidacorp.wixsite.com/detastecorp/">De Taste Food</a>
                 </p>
               </div>
             </div>

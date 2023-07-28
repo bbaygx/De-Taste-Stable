@@ -25,23 +25,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import { GlobalProvider } from "../../contexts/AuthContext";
 
-// import required modules
-import { Pagination } from "swiper/modules";
-import { useFilter, getByType } from "../../api";
-import { useEffect } from "react";
 
 const Navbar = () => {
   
   const navigate = useNavigate();
-  const { searchItemValue, setSearchItemValue, getdataKuliner, setDataKuliner } = GlobalProvider();
   
-  const {getDataKulinerValue, setDataKulinerValue} = useState([])
   const [openSearch, setOpenSearch] = useState(false);
   const [input, setInput] = useState([]);
   const [like, setLike] = useState(false);
-  const [saveParams, setSaveParams] = useState('Makanan')
 
 
   const openSearchToogle = () => {

@@ -1,18 +1,14 @@
-import React,{useEffect, useState} from 'react'
 import { cardItem,BiSolidTimeFive,AiFillStar,BsArrowRight,BiLeftArrowAlt } from "../../utils"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import GrabFood from '../../assets/grabfood.png'
-import GoFood from '../../assets/gofood.png'
+
 import ChangeRegion from './ChangeRegion';
 import { GlobalProvider } from '../../contexts/AuthContext';
 
 
 const LocationData = () => {
 
-  const {getLocation} = GlobalProvider()
 
   
 

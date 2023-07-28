@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-3xl font-bold">Selamat Datang Di Website De Taste Food, Menemukan Kemewahan Kuliner</h1>
             <p className="py-6">Temukan pengalaman kuliner yang mewah dan tak terlupakan di outlet-outlet terbaik di kota ini. Mari jelajahi citarasa yang menggugah selera dan nikmati kelezatan yang tak terlupakan.</p>
             <button className="btn btn-primary">
-            <Link to="/restaurant">Jelajahi Sekarang</Link>
+            <Link to="/restaurant/region">Jelajahi Sekarang</Link>
             </button>
           </div>
         </div>

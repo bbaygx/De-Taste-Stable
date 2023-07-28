@@ -4,7 +4,7 @@ import './index.css'
 import App from './App'
 import "./App.css"
 import { BrowserRouter } from 'react-router-dom'
-import { QueryClientProvider, QueryClient } from "react-query"
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query"
 
 const queryClient = new QueryClient()
 
