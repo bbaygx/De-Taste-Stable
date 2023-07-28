@@ -29,7 +29,7 @@ export default function Terlaris() {
             const terlaris = data.data.filter(item => item.rating > 4);
             setFilteredTerlaris(terlaris);
         }
-    }, [region])
+    }, [region, data])
 
     return (
         <>
